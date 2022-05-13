@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CSS Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Style the header */
+    header {
+      background-color: #666;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: black;
+    }
+
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 30%;
+      height: 300px;
+      /* only for demonstration, should be removed */
+      background: #ccc;
+      padding: 20px;
+    }
+
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #54CD86;
+      height: 300px;
+      /* only for demonstration, should be removed */
+    }
+
+    /* Clear floats after the columns */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Style the footer */
+    footer {
+      background-color: #54CD86;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+
+      nav,
+      article {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <body>
+
+    <h1 style="background-color: #8b5742;"> <center>The Coffe</center></h1> 
+     <center><img src="thecoffee.png"> </center>
+    <p><b>Nesse layout vamos apresentar de forma breve os serviços e a história da empresa The Coffe, uma empresa nacional, nascida através do amor ao café de três irmãos.</b></p> <br>
+    <p>
+      Os cafés se dividem em cinco tipos: expresso, americano, café com leite, latte (média) e iced latte. Também existem cinco outras bebidas quentes e cinco bebidas geladas. 
+
+A aposta em tecnologia acompanhou a bandeira do minimalismo. O The Coffe começou com tablets de autoatendimento, incentivando o pagamento digital. Depois, investiu em um sistema próprio que integra pedidos com o estoque da loja, facilitando a gestão e a reposição dos insumos. O último investimento foi em um aplicativo próprio para pedidos e pagamentos.
+
+Atualmente já estamos com 50 lojas em 12 cidades no Brasil: Curitiba, Maringá, Ponta Grossa, Porto Alegre, Florianópolis, Joinville, Blumenau, Balneário Camboriú, São Paulo, Rio de Janeiro, Belo Horizonte, Brasília, Fortaleza. A partir deste ano, estamos prestes a ir para a Europa e já estamos em obras com nossas lojas no exterior.
+    </p>
+
+    <head>
+      <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          width: 200px;
+          background-color: #CD853F;
+          border: 1px solid #555;
+        }
+
+        li a {
+          display: block;
+          color: #000;
+          padding: 8px 16px;
+          text-decoration: none;
+        }
+
+        li {
+          text-align: center;
+          border-bottom: 1px solid #555;
+        }
+
+        li:last-child {
+          border-bottom: none;
+        }
+
+        li a.active {
+          background-color: #8b5742;
+          color: white;
+        }
+
+        li a:hover:not(.active) {
+          background-color: #8b5742;
+          color: white;
+        }
+      </style>
+    </head>
+
+    <body>
+
+      <ul>
+        <li><a class="active" a href="https://www.thecoffee.jp/">Quem Somos</a></li>
+        <li><a href="https://www.thecoffee.jp/shortcut/brasil/fortaleza/the-coffee-aldeota/menu">Produtos</a></li>
+        <li><a href="https://www.thecoffee.jp/shortcut/brasil/fortaleza">Lojas mais próximas </a></li>
+      </ul>
+
+    </body>
+<br>
+    <body>
+      
+      <header>
+        <h2>Bebidas Famosas</h2>
+      </header>
+
+      <section>
+        <nav>
+          <ul>
+            <li><a href="https://www.thecoffee.jp/shortcut/brasil/brasilia/the-coffee-asa-norte/menu">Iced Vanilla </a></li>
+            <li><a href="https://www.thecoffee.jp/shortcut/brasil/brasilia/the-coffee-asa-norte/menu""> Matcha Iced Latte</a></li>
+            <li><a href="https://www.thecoffee.jp/shortcut/brasil/brasilia/the-coffee-asa-norte/menu""> Pure Black </a></li>
+          </ul>
+        </nav>
+
+        <article>
+          <h1> Descrição das bebidas  </h1>
+
+          <p><i>Com um conceito minimalista e urbano, o The Coffee chegou em Fortaleza em agosto deste ano e trouxe os cafés exclusivos da marca. O cardápio, simples e moderno, conta com três tipos de bebidas: Puristas, Quentes e Geladas. Com o café cultivado no Paraná, o empreendimento utiliza grãos arábica exclusivos.
+Para quem gosta de um café clássico, escolher uma das cinco opções que a seção “Puristas” oferece, é sem erro. O Pure Black é um dos favoritos, o famoso espresso, que leva o sabor do café arábica. O Iced Latte é uma opção para quem quer provar o café gelado: a bebida conta com leite, café e gelo.</i>
+         
+        </article>
+      </section>
+      <html lang="en">
+
+      <head>
+        <title>CSS Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+
+          body {
+            font-family: Arial, Helvetica, sans-serif;
+          }
+
+          /* Style the header */
+          header {
+            background-color: #DEB887;
+            padding: 20px;
+            text-align: center;
+            font-size: 35px;
+            color: ;
+          }
+
+          /* Create two columns/boxes that floats next to each other */
+          nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+          }
+
+          /* Style the list inside the menu */
+          nav ul {
+            list-style-type: none;
+            padding: 0;
+          }
+
+          article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+            /* only for demonstration, should be removed */
+          }
+
+          /* Clear floats after the columns */
+          section::after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          /* Style the footer */
+          footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+          }
+
+          /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+          @media (max-width: 600px) {
+
+            nav,
+            article {
+              width: 100%;
+              height: auto;
+            }
+          }
+        </style>
+      </head>
+
+      <body>
+
+        <header>
+          <h2>Tamanho dos Copos</h2>
+        </header>
+
+        <section>
+          <nav>
+            <ul>
+              <li><a href="https://uploads.metropoles.com/wp-content/uploads/2020/12/14144938/app-lancamento4b-997x1024.jpg">Tall/Tall </a></li>
+              <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZ6yWu_b8-lnwNbDDZNxmBXxgu86bS4fHTnoNh9Ivqh-8UREvBfwdc1h-KATi3Jea7qE&usqp=CAU">Grande/Grande frio</a></li>
+              <li><a href="https://media-cdn.tripadvisor.com/media/photo-p/15/3b/11/6c/the-coffee.jpg">Venti/Venti </a></li>
+            </ul>
+          </nav>
+
+          
+
+        <body>
+
+
+          <size>
+            <img src="índice.jpeg" height="200">
+          </size>
+
+          <body>
+
+            <body>
+
+
+
+              <p><b>Contato da Empresa:</b></p>
+
+              <address>
+                Mande um e-mail.<br>
+                Nos visite aqui:<br>
+                123, Algum lugar<br>
+                BR
+              </address>
+
+            </body>
+          </body>
+
+      </html>
